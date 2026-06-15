@@ -1,6 +1,6 @@
 ﻿import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://legallite-ai-backend.onrender.com';
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
