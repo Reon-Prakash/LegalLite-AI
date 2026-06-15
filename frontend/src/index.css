@@ -1,0 +1,23 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.risk-high { color: #dc2626; }
+.risk-medium { color: #d97706; }
+.risk-low { color: #16a34a; }
+
+.bg-risk-high { background-color: #fef2f2; border-color: #fecaca; }
+.bg-risk-medium { background-color: #fffbeb; border-color: #fde68a; }
+.bg-risk-low { background-color: #f0fdf4; border-color: #bbf7d0; }
